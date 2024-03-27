@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Spielfigur } from "./Spielfigur";
-import Aaa from "./Aaa";
-import Bbb from "./Bbb";
+import Aaa from "./Introduction";
+import Vorstelung from "./Vorstelung";
 import Menu from "./Menu";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
         <img src="daisy.webp" alt="logo" height="200px" />
       </header>
       {article === "spielfigur" && <Spielfigur />}
-      {article === "aaa" && <Aaa />}
-      {article === "bbb" && <Bbb />}
+      {article === "vorstelung" && <Vorstelung />}
+      {article === "introduction" && <Aaa />}
     </div>
   );
 }

@@ -6,8 +6,8 @@ function Menu({ setArticle }) {
   return (
     <div>
       <button onClick={()=>handleClick("spielfigur")}>Spielfigur</button>
-      <button onClick={()=>handleClick("aaa")}>Todo1</button>
-      <button onClick={()=>handleClick("bbb")}>Todo2</button>
+      <button onClick={()=>handleClick("vorstelung")}>Vorstelung</button>
+      <button onClick={()=>handleClick("introduction")}>Introduction</button>
     </div>
   );
 }
